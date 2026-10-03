@@ -661,6 +661,13 @@ section {
   }
 }
 
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1240px;
+  }
+}
+
 .project-card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
@@ -708,6 +715,11 @@ section {
 
 .project-preview.coaching-theme {
   background: linear-gradient(135deg, #1e3a8a 0%, #1e1b4b 70%, #312e81 100%);
+}
+
+.project-preview.luxury-theme {
+  background: radial-gradient(circle at 85% 20%, rgba(201, 166, 70, 0.35) 0%, transparent 55%), linear-gradient(135deg, #18181b 0%, #09090b 55%, #291e0a 100%);
+  border-bottom: 2px solid #c9a646;
 }
 
 .project-badge-tag {

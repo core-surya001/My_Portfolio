@@ -1,0 +1,6 @@
+# Ignore inner standalone repositories
+jwellary shop/
+
+# OS and temp files
+.DS_Store
+Thumbs.db
